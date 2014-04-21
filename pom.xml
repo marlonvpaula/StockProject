@@ -88,7 +88,7 @@
          <artifactId>jboss-ejb-api_3.1_spec</artifactId>
          <scope>provided</scope>
       </dependency>
-
+      
       <!-- JSR-303 (Bean Validation) Implementation -->
       <!-- Provides portable constraints such as @Email -->
       <!-- Hibernate Validator is shipped in JBoss AS 7 -->
@@ -140,6 +140,12 @@
          <version>1.0.0.CR4</version>
          <scope>test</scope>               
       </dependency>
+      
+      <dependency>  
+	    <groupId>org.primefaces</groupId>  
+	    <artifactId>primefaces</artifactId>  
+	    <version>4.0</version>  
+	  </dependency>
 
    </dependencies>
 
